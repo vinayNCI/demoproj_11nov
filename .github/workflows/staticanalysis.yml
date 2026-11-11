@@ -1,9 +1,11 @@
 name: Static Analysis Pylint
 on:
   push:
-  branches: ["main"]
- pull_request:
-  branches: ["main"]
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+
 permissions:
   contents: read
 
